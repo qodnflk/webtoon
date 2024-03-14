@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:webtoon/clone_coding.dart';
+import 'package:webtoon/practice.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CloneCoding(),
+      home: Practice(),
     );
   }
 }
